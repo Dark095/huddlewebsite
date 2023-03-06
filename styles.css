@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image:url(images/bg-desktop.svg);
+}
+.container1{
+    display: block;
+}
+.logo{
+    height: 12rem;
+    width: 12rem;
+    margin-left: 5rem;
+}
+.mainImg{
+    height: 30rem;
+    width: 43rem;
+    margin-left: 5rem;
+}
+.container2{
+    display: flex;
+}
+.heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+    margin: 3.5rem 8rem 0rem 3.5rem;
+}
+.info{
+    font-family: 'Open Sans', sans-serif;
+    margin: 2.5rem 4.5rem 0rem 3.5rem;
+    color: white;
+    font-weight: lighter;
+}
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color:hsl(257, 40%, 49%);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 13px 45px 13px 45px;
+    text-decoration: none;
+    
+    margin-left: 3.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.btn:hover {
+    background: #e61ee6;
+    text-decoration: none;
+    color: white;
+}
+.space{
+    height: 2.2rem;
+}
+.icons{
+    height: 17rem;
+    width: 35rem;
+    
+}
+
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	font-size: 3em;
+}
+.fa-twitter{
+	background: #4099FF;
+	color: #FFFFFF;
+    padding: 0.05em 0.07em;
+    text-decoration: none;
+    margin-left: 20rem;
+}
+.fa-facebook{
+	background: #3B5998;
+	color: #FFFFFF;
+    padding: 0.05em 0.3em;
+    text-decoration: none;
+}
+.fa-pinterest{
+	color: #cb2027;
+    text-decoration: none;
+}
+.fa{
+    margin-top: 12rem;
+    
+}
